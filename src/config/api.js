@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://backend10-production.up.railway.app:5000/api/v1', // change if using Railway/Vercel
+  baseURL: 'https://backend10-production.up.railway.app/api/v1', // change if using Railway/Vercel
   withCredentials: true, // sends cookies
 });
 
